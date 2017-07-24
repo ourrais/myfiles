@@ -26,7 +26,7 @@ function createSummaryAndThumb(pID){
     summ = summary_img;
   }
   
-  var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+  var summary = imgtag + '<div class=posto>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
   div.innerHTML = summary;
 }
 
